@@ -23,8 +23,7 @@ const UPLOADS = {
 const translationKey = fields.text({
   label: "Clave de traducción",
   description:
-    "Mismo valor en las tres versiones del contenido. Enlaza los idiomas para hreflang y el selector de idioma. No se muestra en la web.",
-  validation: { isRequired: true },
+    "Opcional. Enlaza esta pieza con sus versiones en otros idiomas: escribe el mismo valor en las tres (por ejemplo, el slug del primer idioma que creaste). Vacío = la pieza existe solo en este idioma. No se muestra en la web.",
 });
 
 const draft = fields.checkbox({
@@ -95,6 +94,13 @@ export function articlesCollection(locale: Locale) {
         label: "Fecha de publicación",
         validation: { isRequired: true },
       }),
+      introBlurb: fields.text({
+        label: "Entradilla",
+        multiline: true,
+        description:
+          "Entre 20 y 320 caracteres. Se muestra en la página del artículo y se usa como meta descripción si no rellenas el bloque SEO.",
+        validation: { isRequired: true, length: { min: 20, max: 320 } },
+      }),
       thumbnail: fields.object(
         {
           src: fields.image({
@@ -118,11 +124,6 @@ export function articlesCollection(locale: Locale) {
         },
         { label: "Cabecera", description: "Imagen a sangre de la página de detalle." },
       ),
-      introBlurb: fields.text({
-        label: "Entradilla",
-        multiline: true,
-        validation: { isRequired: true, length: { min: 20, max: 320 } },
-      }),
       featured: fields.checkbox({
         label: "Destacado en la home",
         defaultValue: false,

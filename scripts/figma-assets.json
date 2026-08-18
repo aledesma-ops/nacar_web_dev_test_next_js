@@ -1,0 +1,60 @@
+{
+  "_comment": "Mapa de assets exportados desde Figma (archivo 8uBEKANpU6w1jjTvir9bkV, sección Home 0:541). Las URLs de la MCP de Figma caducan ~7 días después de generarse (generadas el 2026-08-17). Si han caducado, vuelve a pedirlas o exporta los assets a mano desde Figma con estos mismos nombres de archivo.",
+  "assets": [
+    {
+      "node": "0:373 (fondo hero)",
+      "url": "https://www.figma.com/api/mcp/asset/f63da06a-72f9-4787-9237-1297001bbc0e.png",
+      "dest": "public/images/brand/hero.png"
+    },
+    {
+      "node": "I0:374;0:596 (logo 44px de la nav)",
+      "url": "https://www.figma.com/api/mcp/asset/80f6036a-7e02-4557-a6ff-9228fdf35402.png",
+      "dest": "public/images/brand/logo-mark.png"
+    },
+    {
+      "node": "0:381 (logotipo Grain Archive)",
+      "url": "https://www.figma.com/api/mcp/asset/7212e232-f394-4150-9aed-ed1cb5c2b2b7.svg",
+      "dest": "public/images/brand/grain-archive-logo.svg"
+    },
+    {
+      "node": "0:395 (Articles item 1)",
+      "url": "https://www.figma.com/api/mcp/asset/5794a1f2-2af8-4bc6-b13c-b1122497ce85.png",
+      "dest": "public/images/articles/article-1.png"
+    },
+    {
+      "node": "0:396 (Articles item 2)",
+      "url": "https://www.figma.com/api/mcp/asset/491edb7f-15a2-45d9-bd12-a9acc6a4bc20.png",
+      "dest": "public/images/articles/article-2.png"
+    },
+    {
+      "node": "0:397 (Articles item 3)",
+      "url": "https://www.figma.com/api/mcp/asset/f478a32c-2c01-40fd-91b8-5d9011f23d42.png",
+      "dest": "public/images/articles/article-3.png"
+    },
+    {
+      "node": "0:398 (Articles item 4)",
+      "url": "https://www.figma.com/api/mcp/asset/77ae91e4-252c-463a-8f19-edf0e9798225.png",
+      "dest": "public/images/articles/article-4.png"
+    },
+    {
+      "node": "0:400 (textura Featured album section)",
+      "url": "https://www.figma.com/api/mcp/asset/321b7345-ff17-4340-98fa-485c44bf5a34.png",
+      "dest": "public/images/brand/featured-album-bg.png"
+    },
+    {
+      "node": "0:403 (portada False Memory)",
+      "url": "https://www.figma.com/api/mcp/asset/d3d5d8ee-575b-4cfa-b6dd-37d79c14ddc4.png",
+      "dest": "public/images/brand/featured-album.png"
+    },
+    {
+      "node": "0:409 (textura Cinema selects)",
+      "url": "https://www.figma.com/api/mcp/asset/91aa0b55-d06a-45bc-992f-ad2197341cc0.png",
+      "dest": "public/images/brand/cinema-selects-texture.png"
+    },
+    {
+      "node": "0:426 (fondo Subscribe section)",
+      "url": "https://www.figma.com/api/mcp/asset/89967216-0ffd-40c3-bd79-47dde1d23178.png",
+      "dest": "public/images/brand/subscribe-bg.png"
+    }
+  ]
+}

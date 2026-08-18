@@ -1,0 +1,20 @@
+marquee: Escriptura independent sobre música, cinema i cultura visual—una peça cada cop.
+hero:
+  image: /images/uploads/hero.png
+  alt: ""
+articles:
+  viewAllLabel: Veure-ho tot
+featuredAlbum:
+  heading: Àlbum destacat
+  cover: /images/uploads/featured-album.png
+  coverAlt: Portada de l'àlbum 'False Memory' d'Artifact — desenfocament geomètric blau i blanc amb tipografia gòtica
+  title: False Memory, d'Artifact
+  ctaLabel: Escoltar ara
+  ctaHref: https://example.com
+cinema:
+  heading: Selecció de cinema
+  labels:
+    film: Pel·lícula
+    year: Any
+    mood: Mood
+    whyWatch: Per què veure-la

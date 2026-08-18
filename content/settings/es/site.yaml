@@ -1,0 +1,46 @@
+name: Grain Archive
+seo:
+  titleTemplate: "%s · Grain Archive"
+  description: Escritura independiente sobre música, cine y cultura visual—una pieza cada vez.
+nav:
+  - label: Inicio
+    route: home
+    variant: orange
+  - label: Archivo
+    route: archive
+    variant: green
+  - label: Sobre
+    route: about
+    variant: blue
+archive:
+  heading: Archivo
+  intro: Todo lo publicado hasta ahora, empezando por lo más reciente.
+  allLabel: Todo
+  emptyLabel: Aquí todavía no hay nada.
+subscribe:
+  heading: Sintoniza la señal
+  body: Sin ruido—solo piezas de fondo sobre música, cine y cultura
+  ctaLabel: Suscribirme
+  ctaHref: "#"
+footer:
+  columns:
+    - label: Enlaces
+      links:
+        - label: Inicio
+          href: home
+        - label: Archivo
+          href: archive
+        - label: Sobre
+          href: about
+    - label: Conecta
+      links:
+        - label: Instagram
+          href: https://www.instagram.com/figma
+        - label: Threads
+          href: https://www.threads.com/@figma
+        - label: YouTube
+          href: https://www.youtube.com/@Figma
+        - label: Email
+          href: mailto:mail@grainarchive.com
+  copyright: ©2025 Grain Archive
+  tagline: Palabras, imágenes y señales desde el borde

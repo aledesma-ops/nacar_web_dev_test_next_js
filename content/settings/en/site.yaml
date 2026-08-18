@@ -1,0 +1,46 @@
+name: Grain Archive
+seo:
+  titleTemplate: "%s · Grain Archive"
+  description: Independent writing on music, film, and visual culture—one deep cut at a time.
+nav:
+  - label: Home
+    route: home
+    variant: orange
+  - label: Archive
+    route: archive
+    variant: green
+  - label: About
+    route: about
+    variant: blue
+archive:
+  heading: Archive
+  intro: Everything published so far, newest first.
+  allLabel: All
+  emptyLabel: Nothing here yet.
+subscribe:
+  heading: Tune into the signal
+  body: No noise—just deep cuts on music, film, and culture
+  ctaLabel: Subscribe
+  ctaHref: "#"
+footer:
+  columns:
+    - label: Links
+      links:
+        - label: Home
+          href: home
+        - label: Archive
+          href: archive
+        - label: About
+          href: about
+    - label: Connect
+      links:
+        - label: Instagram
+          href: https://www.instagram.com/figma
+        - label: Threads
+          href: https://www.threads.com/@figma
+        - label: YouTube
+          href: https://www.youtube.com/@Figma
+        - label: Email
+          href: mailto:mail@grainarchive.com
+  copyright: ©2025 Grain Archive
+  tagline: Words, images, and signals from the edge

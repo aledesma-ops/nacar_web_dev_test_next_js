@@ -1,0 +1,46 @@
+name: Grain Archive
+seo:
+  titleTemplate: "%s · Grain Archive"
+  description: Escriptura independent sobre música, cinema i cultura visual—una peça cada cop.
+nav:
+  - label: Inici
+    route: home
+    variant: orange
+  - label: Arxiu
+    route: archive
+    variant: green
+  - label: Sobre
+    route: about
+    variant: blue
+archive:
+  heading: Arxiu
+  intro: Tot el que s'ha publicat fins ara, començant pel més recent.
+  allLabel: Tot
+  emptyLabel: Aquí encara no hi ha res.
+subscribe:
+  heading: Sintonitza el senyal
+  body: Sense soroll—només peces de fons sobre música, cinema i cultura
+  ctaLabel: Subscriure'm
+  ctaHref: "#"
+footer:
+  columns:
+    - label: Enllaços
+      links:
+        - label: Inici
+          href: home
+        - label: Arxiu
+          href: archive
+        - label: Sobre
+          href: about
+    - label: Connecta
+      links:
+        - label: Instagram
+          href: https://www.instagram.com/figma
+        - label: Threads
+          href: https://www.threads.com/@figma
+        - label: YouTube
+          href: https://www.youtube.com/@Figma
+        - label: Email
+          href: mailto:mail@grainarchive.com
+  copyright: ©2025 Grain Archive
+  tagline: Paraules, imatges i senyals des de la vora

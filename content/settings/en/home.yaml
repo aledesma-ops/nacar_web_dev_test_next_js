@@ -1,0 +1,20 @@
+marquee: Independent writing on music, film, and visual culture—one deep cut at a time.
+hero:
+  image: /images/uploads/hero.png
+  alt: ""
+articles:
+  viewAllLabel: View all
+featuredAlbum:
+  heading: Featured Album
+  cover: /images/uploads/featured-album.png
+  coverAlt: Album cover for 'False Memory' by Artifact — abstract blue and white geometric blur with gothic-style typography
+  title: False Memory by Artifact
+  ctaLabel: Listen now
+  ctaHref: https://example.com
+cinema:
+  heading: Cinema Selects
+  labels:
+    film: Film
+    year: Year
+    mood: Mood
+    whyWatch: Why watch

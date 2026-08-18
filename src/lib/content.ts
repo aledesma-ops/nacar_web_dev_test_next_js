@@ -145,6 +145,11 @@ export async function getTranslations(
   translationKey: string,
   locales: readonly Locale[],
 ): Promise<Partial<Record<Locale, string>>> {
+  // Sin clave no hay traducciones que enlazar. El guardado importa: sin él,
+  // dos artículos con la clave vacía se tomarían por traducciones el uno del
+  // otro y el hreflang apuntaría a contenido que no lo es.
+  if (!translationKey) return {};
+
   const pairs = await Promise.all(
     locales.map(async (locale) => {
       const entries = await articlesFor(locale).all();
